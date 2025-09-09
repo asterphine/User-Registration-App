@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import * as React from "react";
+import { useState } from "react";
 import {
-    ActivityIndicator,
-    Button,
-    StyleSheet,
-    Text,
-    TextInput,
-    View
+  ActivityIndicator,
+  Button,
+  StyleSheet,
+  Text,
+  TextInput,
+  View
 } from "react-native";
 
 export default function RegisterScreen() {
